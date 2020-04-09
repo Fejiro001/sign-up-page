@@ -1,0 +1,157 @@
+html{
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  border: 0px solid rgb(226, 232, 240);
+}
+body{
+  margin: 0px;
+}
+.pagebody{
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  height: 100vh;
+}
+.scroll{
+  display: flex;
+  overflow: auto;
+  background-color: rgb(6, 40, 99);
+  background-image: url(https://res.cloudinary.com/fejiro001/image/upload/v1586206197/o_uotusz.png),url(https://res.cloudinary.com/fejiro001/image/upload/v1586206197/g_lmxgfd.png),url(https://res.cloudinary.com/fejiro001/image/upload/v1586206197/d_bca1y7.png),url(https://res.cloudinary.com/fejiro001/image/upload/v1586206197/a_svpyed.png);
+  background-position: -1% -15%, 107.5% -1%, -5% 110%, 105% 105%;
+  background-size: 15% auto, 15% auto, 15% auto, 15% auto;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 0px 48px 0px;
+  min-height: 671px;
+}
+.logolink{
+  text-decoration: none;
+  color: black;
+  background-color: rgb(0, 0, 0, 0);
+}
+.logo{
+  display: block;
+  max-width: 100%;
+  height: 36px;
+  margin-bottom: 48px;
+}
+.signing{
+  background-color: white;
+  border-radius: 1.25rem 1.25rem 1.25rem 0rem;
+  max-width: 28rem;
+  padding: 2.5rem 2.5rem 3rem 2.5rem;
+  width: 448px;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.create{
+  color: rgb(8, 62, 158);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+}
+.welcome{
+  display: block;
+  text-align: center;
+  margin: 0px;
+  font-size: 14px;
+  color: rgb(74, 85, 104);
+}
+.signup{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  min-height: min-content;
+  margin: 2rem 0rem 0rem 0rem;
+  flex: 1 1 0%;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.text{
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 0.25rem;
+  color: rgb(74, 85, 104);
+  line-height: 1.5rem;
+}
+.text-input{
+  line-height: 1.5rem;
+  padding: 1rem;
+  margin: 0px;
+  overflow: visible;
+  outline: 0px none rgb(26, 32, 44);
+  font-size: 1rem;
+  background-color: rgb(237, 242, 247);
+  color: rgb(26, 32, 44);
+  border-radius: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+select{
+  line-height: 1.5rem;
+  -webkit-appearance: none;
+  background-color: rgb(237, 242, 247);
+  color: rgb(74, 85, 104);
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-image: url(https://res.cloudinary.com/fejiro001/image/upload/v1586295761/keyboard_arrow_down-black-18dp_c1g9ys.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 2rem;
+}
+.cbutton{
+  display: flex;
+  flex: 1 1 0%;
+  align-items: flex-end;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  background-attachment: scroll;
+  background: rgb(8, 62, 158) none 0px 0px/auto repeat padding-box border-box;
+  width: 100%;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.25rem 2.5rem 1rem 2.5rem;
+  overflow: visible;
+  margin: 0px;
+  line-height: inherit;
+  border-radius: 12px 12px 12px 0px;
+  cursor: pointer;
+  color: white;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none solid;
+  padding: 4px 20px 4px 20px;
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 12px 12px 12px;
+  border-color: white;
+}
